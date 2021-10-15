@@ -1,0 +1,22 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(15, 38, 88);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+	background: #fff;
+}
+
+#sendBtn {
+	border: 2px solid red;
+	border-radius: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+}
