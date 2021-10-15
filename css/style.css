@@ -5,6 +5,8 @@ body {
 	align-items: center;
 	background: rgb(15, 38, 88);
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
 }
 
 .container {
@@ -12,11 +14,38 @@ body {
 	padding: 10px;
 	border-radius: 20px;
 	background: #fff;
+	flex: 0 0 80%;
 }
 
 #sendBtn {
+	display: block;
+	margin: 10px auto;
+	padding: 10px 15px;
 	border: 2px solid red;
 	border-radius: 15px;
-	padding: 10px 15px;
+	text-transform: capitalize;
+}
+
+#sendBtn:hover {
 	cursor: pointer;
+	/* opacity: 0.8; */
+	background: red;
+	color: #fff;
+}
+
+.container input[type="text"] {
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px 15px;
+	font-size: 15px;
+}
+
+.container input[type="text"]:focus {
+	box-shadow: 0 0 10px red;
+}
+
+#displayMessage {
+	margin: 10px 5px;
+	color: red;
 }
